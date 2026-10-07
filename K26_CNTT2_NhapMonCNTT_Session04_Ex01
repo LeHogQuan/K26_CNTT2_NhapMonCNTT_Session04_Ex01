@@ -1,0 +1,15 @@
+Phần 1:
+mkdir Shopee Projects: sai vì tên có khoảng trắng  phải dùng "Shopee Projects".
+ 
+cd Shopee Projects: tương tự, phải đặt đường dẫn trong " "
+
+Nếu không vào đúng thư mục, Copy-Item src... sẽ báo Cannot find path vì không tìm thấy src
+
+phần 2:
+
+mkdir "Shopee Projects"
+
+cd "Shopee Projects"
+
+mkdir src\assets\images; Copy-Item src -Destination src-backup -Recurse
+
